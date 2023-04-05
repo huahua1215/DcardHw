@@ -182,7 +182,6 @@ console.log(searchTerm)
             <p>Updated at: {issue.updated_at}</p>
             <button onClick={() => closeTask(issue)}>Close Task</button>
             <button >Edit Task</button>
-            
           </li>
         ))}
         {hasMore && (
@@ -191,8 +190,6 @@ console.log(searchTerm)
      </div>
    )}
       </ul>
-      
-      
       {loading && <p>Loading...</p>}
       {!loading && issues.length === 0 && <p>No issues found.</p>}
     </>

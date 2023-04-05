@@ -5,9 +5,6 @@ import './index.css';
 
 
 function Home  () {
-  
-
-  
 
     return <div className="app">
       <div className="index-container" id="homepage">
@@ -22,18 +19,11 @@ function Home  () {
         <div className="card-body" id="mytask" >
          <TaskList/>
         </div>
-        
         <div className="card-footer">
          <ul className="index-list">
           <li className="index-list-item"><a href="#homepage">Back to Homepage</a></li>
          </ul>
-           
-
-            
         </div>
-        
-
-        
     </div>
 
 }
