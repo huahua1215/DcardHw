@@ -1,4 +1,5 @@
-#2023 Frontend Intern Homework  
+2023 Frontend Intern Homework  
+  
 1.安裝相關軟體或套件:Visual Studio Code、Node.js  
 2.啟動專案：在Visual Studio Code的終端機輸入:npm start  
 3.專案架構：  
