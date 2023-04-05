@@ -1,0 +1,20 @@
+.status{
+    padding-left: 50px;
+    font-weight:bold;
+}
+.time{
+    padding-left: 50px;
+    font-weight:bold;
+}
+.search{
+    padding-left: 50px;
+    font-weight:bold;
+}
+.mytask{
+    
+    padding-left: 25px;
+    font-weight:bold;
+    font-size: 25px;
+    margin: 25px;
+    border-left: 4px solid black;
+}

@@ -1,0 +1,41 @@
+
+.card-footer{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 25px;
+}
+.index-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+
+  .index-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 800px;
+  }
+
+  .index-list-item {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+
+  .index-list-item a {
+    text-decoration: none;
+    color: #333;
+  }

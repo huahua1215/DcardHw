@@ -1,0 +1,37 @@
+.add{
+    padding-left: 25px;
+    font-weight:bold;
+    font-size: 25px;
+    margin: 25px;
+    border-left: 4px solid black;
+}
+.title{
+    padding-left: 25px;
+    font-weight:bold;
+    font-size: 15px;
+    margin: 10px;
+    
+}
+.des{
+    padding-left: 25px;
+    font-weight:bold;
+    font-size: 15px;
+    margin: 10px;
+    
+    
+}
+.description-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .addtaskbtn{
+
+    padding: 10px;
+    font-weight:bold;
+    font-size: 15px;
+    
+    margin: 35px;
+    
+
+  }
