@@ -37,4 +37,4 @@ DcardHw/
   使用者授權GitHub API，能夠看到專案的issue及comment的內容及狀態、可以關閉issue、並且能依照時間和狀態進行排序、一次最多顯示十筆資料，若超過會發送API請求。  
     
   仍在研究的功能有:  
-  將新增issue功能的頁面連結到主畫面、開發編輯issue的功能、contact me頁面的製作、美化整個網頁畫面。  
+  將新增issue功能的頁面連結到主畫面、開發編輯issue的功能、開發搜尋issue的功能、contact me頁面的製作、美化整個網頁畫面。  
