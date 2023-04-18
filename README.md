@@ -4,7 +4,7 @@
   
 2.啟動專案：
 在Visual Studio Code的終端機輸入:  
-git clone https://github.com/huahua1215/DcardHw.git  
+git clone https://github.com/huahua1215/GitHub-ISSUE-API.git  
 cd DcardHw  
 npm install  
 npm start  
