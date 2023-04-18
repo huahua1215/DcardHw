@@ -1,4 +1,4 @@
-2023 Frontend Intern Homework  
+這是一個可以管理GitHub專案的網頁:
   
 1.安裝相關軟體或套件:Visual Studio Code、Node.js  
   
