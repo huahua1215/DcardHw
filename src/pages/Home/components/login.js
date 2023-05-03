@@ -67,7 +67,7 @@ const REDIRECT_URI = 'http://localhost:3000';
       </>
       ) : (
         <ul className="index-list">
-        <li className="index-list-item" onClick={handleLoginClick}><a href="#">Login with GitHub</a></li>
+        <li className="index-list-item" onClick={handleLoginClick}><a href="#">Authorize GitHub API</a></li>
         </ul>
         
       

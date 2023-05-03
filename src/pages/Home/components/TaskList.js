@@ -166,10 +166,10 @@ console.log(searchTerm)
             <option value="desc">Descending</option>
           </select>
         </label>
-        <label className='search'>
+        {/* <label className='search'>
           Search:
           <input type="text" value={searchQuery} onChange={handleSearchQueryChange} />
-        </label>
+        </label> */}
       </div>
       
       <ul>
@@ -180,8 +180,8 @@ console.log(searchTerm)
             <p>Status: {issue.state}</p>
             <p>{issue.created_at}</p>
             <p>Updated at: {issue.updated_at}</p>
-            <button onClick={() => closeTask(issue)}>Close Task</button>
-            <button >Edit Task</button>
+            <button onClick={() => closeTask(issue)} >Close Task</button>
+            {/* <button >Edit Task</button> */}
           </li>
         ))}
         {hasMore && (

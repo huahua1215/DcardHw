@@ -1,3 +1,78 @@
+a {
+  text-decoration: none;
+  color: rgb(57, 57, 57);
+}
+select {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.3;
+  padding: 8px 38px 8px 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  background-image: linear-gradient(45deg, transparent 50%, #ccc 50%),
+    linear-gradient(135deg, #ccc 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), 100% 0;
+  background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+  background-repeat: no-repeat;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  color: #555;
+}
+
+select:hover,
+select:focus {
+  outline: none;
+  background-color: #eee;
+}
+
+select option {
+  color: #000;
+  background-color: #fff;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+label:after {
+  content: "\25BC";
+  position: absolute;
+  top: -6;
+  right: 4px;
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #f9f9f9;
+  color: #555;
+  font-size: 15px;
+  pointer-events: none;
+}
+
+label:hover:after {
+  color: #888;
+}
+
+label select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+}
+select option {
+  background-color: #ebebeb;
+  color: #4a4a4a;
+}
+
+h1{
+  font-size: 80px;
+}
+
 
 .card-footer{
      display: flex;
@@ -26,6 +101,24 @@
     width: 100%;
     max-width: 800px;
   }
+  .index-list2{
+    display: flex;
+
+    list-style: none;
+    margin: 0px;
+    padding-left:1900px;
+    width: 100%;
+    max-width: 800px;
+  }
+  .index-list3{
+    display: flex;
+
+    list-style: none;
+    margin: 0px;
+    padding-left:1160px;
+    width: 100%;
+    max-width: 800px;
+  }
 
   .index-list-item {
     margin: 10px;
@@ -35,7 +128,23 @@
     border-radius: 4px;
   }
 
-  .index-list-item a {
-    text-decoration: none;
-    color: #333;
+/* 小螢幕設備 */
+@media (max-width: 430px) {
+  .container {
+    width: 100%;
   }
+}
+
+/* 中螢幕設備 */
+@media (min-width: 430px) and (max-width: 570px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* 大螢幕設備 */
+@media (max-width: 1250px) {
+  .container {
+    width: 60%;
+  }
+}
